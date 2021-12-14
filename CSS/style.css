@@ -117,19 +117,27 @@ li{
 }  
 /*FOOTER*/
 footer {
-    background-color: rgba(126, 122, 121, 0.781);
     font-style: italic;
     font-weight: 500;
     height: 5vh;
     min-height: 10vh;
     max-height: 150vh;
     padding-top: 2.5em;
+<<<<<<< HEAD
+=======
+    bottom: 0em;
+    color: rgb(255, 253, 253);
+>>>>>>> 9ceeed4 (cambios-footer)
 }
 section.productos{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    font-style:oblique;
 }
 .sectionContent{
     display: flex;
@@ -142,14 +150,11 @@ section.productos{
 
 }
 section.redes{ 
+    background-color: rgba(126, 122, 121, 0.781);
     font-size: large;
     text-align: center;
     color: rgb(255, 253, 253);
     
-}
-
-.footerDesarrollo{
-    padding-bottom: 3em;
 }
 
 .sectionUbication{
@@ -157,6 +162,14 @@ section.redes{
     font-style: italic;
     font-weight: 500; 
     align-items: center;  
+}
+
+.encuentranos{
+    margin: 1em;
+}
+
+.catalogo{
+    margin: 1em;
 }
 
 .divContact{
