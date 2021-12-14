@@ -21,7 +21,63 @@ h1{
     max-height: 10vh;
 }
 
+<<<<<<< HEAD
  section.bienvenidos{
+=======
+/*Navegacion menu*/
+
+nav ul li {
+    display: inline-block
+}
+
+header { 
+    background-color: rgba(126, 122, 121, 0.781);
+    margin-top: 0em;
+    padding-top: 2.5em;
+    text-align: center;
+    height: 30vh;
+    position: sticky;
+    top: 0em;
+}
+
+section.menu{ 
+    font-weight: 500;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: rgb(255, 253, 253);
+    list-style-type:none;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    text-align: center;
+    display: inline-block
+}
+
+a {
+    font-weight: 500;
+    text-align: right;
+    font-size: large;
+    font-style: italic;
+    color: rgb(255, 253, 253);
+    list-style-type:none;
+ }
+
+ /*BOTON FLOTANTE WPP*/
+.whatsApp{
+    width: 10vh;
+    height: 10vh;
+    position: fixed;
+    bottom: 10vh;
+    right: 3%;
+     
+}
+
+ /*Header*/
+
+section.bienvenidos{
+>>>>>>> a7862a7 (nav-formulario)
     color: rgb(5, 5, 5);
     font-style: italic;
     font-weight: 500;
