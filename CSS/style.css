@@ -10,7 +10,7 @@
 
 h1{
     font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
 
 }
@@ -19,7 +19,6 @@ h1{
 .logo{ 
     min-height: 15vh;
     max-height: 10vh;
-    transform: rotate(0.95turn);
 }
 
 /*Navegacion menu*/
@@ -48,6 +47,13 @@ section.menu{
     list-style-type:none;
 }
 
+/*Carousel*/
+
+.carousel-inner img{
+    width:640px;
+    height:360px;
+}
+}
 a {
     font-weight: 500;
     text-align: right;
@@ -123,11 +129,8 @@ footer {
     min-height: 10vh;
     max-height: 150vh;
     padding-top: 2.5em;
-<<<<<<< HEAD
-=======
     bottom: 0em;
     color: rgb(255, 253, 253);
->>>>>>> 9ceeed4 (cambios-footer)
 }
 section.productos{
     display: flex;

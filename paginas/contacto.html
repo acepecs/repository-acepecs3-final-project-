@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="shortcut icon" href="../imagenes/1519886781166.jfif">
-    <link rel="stylesheet" href="../css/style.css">
+ 
 <!--Fonteawesome sacamos el link para relacionarlo y los links de cada uno de los iconos-->
 <script src="https://kit.fontawesome.com/d5aa0af634.js" crossorigin="anonymous"></script>
+<!-- Link Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Link CSS-->
+<link rel="stylesheet" href="../CSS/style.css">  
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="../index.html">
             <img width="250" src="../imagenes/kavo-dental-espana-300x105.png" alt="Logo HTML">
         </a> 
         <section class="menu">
-            <nav>
+            <!-- <nav>
                 <ul>
                     <li>
                         <a href="../index.html">Inicio</a>
@@ -34,7 +38,31 @@
                         <a href="../paginas/contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/quienes-somos.html">Quienes somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </section>
     </header>
 
@@ -77,6 +105,14 @@
     </form>
     
 </div>
+
+<section class="sectionUbication">
+        
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0440446552543!2d-56.195800484762266!3d-34.90534418038247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802d4044544b%3A0x87ab7d1ccc394fdd!2sR%C3%ADo%20Negro%201394%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo%2C%20Uruguay!5e0!3m2!1ses!2sar!4v1636085357438!5m2!1ses!2sar" 
+    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!-- puse en width 100% para que se pueda ver en toda la pagina !-->
+</section>
+
     <footer>
         <section class="redes">
             <p>Sitio desarrollado por Martin Acerenza </p>
@@ -89,6 +125,9 @@
               <a href="https://www.youtube.com/channel/UClLk3NWO6-4nK9STq0Sf34A">
                <i class="fab fa-youtube fa-2x"></i></a>
     </footer>
-    
+<!-- Link JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
 </body>
 </html>
