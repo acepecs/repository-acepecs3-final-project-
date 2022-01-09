@@ -99,31 +99,6 @@ section.bienvenidos{
     margin: 1em;
     padding-top: 1em;
 }
-/*Navegacion menu*/
-
-nav ul li {
-    display: inline-block
-}
-
-header { 
-    background-color: rgba(126, 122, 121, 0.781);
-    margin-top: 0em;
-    padding-top: 1.5em;
-    text-align: center;
-    height: 30vh;
-    position: sticky;
-    top: 0em;
-}
-
-section.menu{ 
-    font-weight: 500;
-    padding: 2em;
-    text-align: center;
-    font-size: large;
-    font-style: italic;
-    color: rgb(255, 253, 253);
-    list-style-type:none;
-}
 
 /*Carousel*/
 
@@ -141,6 +116,9 @@ a {
     list-style-type:none;
  }
 
+ .catalogo{
+     padding: 2em
+ }
  /*BOTON FLOTANTE WPP*/
 .whatsApp{
     width: 10vh;
@@ -174,11 +152,11 @@ li{
 footer {
     font-style: italic;
     font-weight: 500;
-    height: 5vh;
-    min-height: 10vh;
-    max-height: 150vh;
+    height: 20vh;
+    min-height: 20vh;
+    max-height: 250vh;
     padding-top: 2.5em;
-    bottom: 0em;
+    bottom: 10em;
     color: rgb(255, 253, 253);
 }
 section.productos{
@@ -202,12 +180,18 @@ section.productos{
 
 }
 section.redes{ 
+    height: 20vh;
+    padding: 2em;
     background-color: rgba(126, 122, 121, 0.781);
     font-size: large;
     text-align: center;
     color: rgb(255, 253, 253);
-    
 }
+
+a:hover {
+  color: rgb(39, 38, 38);
+}
+
 
 .sectionUbication{
     color: rgb(5, 5, 5);
