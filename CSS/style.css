@@ -29,7 +29,7 @@ nav ul li {
 }
 
 header { 
-    background-color: rgba(126, 122, 121, 0.781);
+    background-color: rgb(99, 102, 107);
     margin-top: 0em;
     padding-top: 2.5em;
     text-align: center;
@@ -92,12 +92,12 @@ section.bienvenidos{
     margin: 2px;
     padding-top: 2.5em;
 }
-.equipo{
+.kavo{
     grid-area: equipo;
     width: 100%;
     height: auto;
     margin: 1em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 /*Carousel*/
@@ -119,6 +119,7 @@ a {
  .catalogo{
      padding: 2em
  }
+ 
  /*BOTON FLOTANTE WPP*/
 .whatsApp{
     width: 10vh;
@@ -182,7 +183,7 @@ section.productos{
 section.redes{ 
     height: 20vh;
     padding: 2em;
-    background-color: rgba(126, 122, 121, 0.781);
+    background-color: rgb(99, 102, 107);
     font-size: large;
     text-align: center;
     color: rgb(255, 253, 253);
