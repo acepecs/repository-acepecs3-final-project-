@@ -12,7 +12,7 @@
 header{ 
     background-color: rgb(99, 102, 107);
     margin-top: 0em;
-    padding-top: 2.5em;
+    padding-top: 3.5em;
     text-align: center;
     height: 30vh;
     position: sticky;
@@ -21,7 +21,8 @@ header{
        .logo{ 
         min-height: 16vh;
         max-height: 50vh;
-
+        padding-bottom: 2em;
+        
           section.menu{ 
           font-weight: 500;
           padding: 2em;
@@ -32,7 +33,6 @@ header{
           list-style-type:none;
 
             nav ul li {
-            display: inline-block;
             text-align: center;
           
               a {
@@ -42,9 +42,6 @@ header{
               font-style: italic;
               color: rgb(255, 253, 253);
               list-style-type:none;
-
-                .navbar.navbar-expand-lg.navbar-light.bg-light{
-                text-align: center;
                 
 
                 }
@@ -54,7 +51,7 @@ header{
             }
           }
         }
-}
+
 
 
 

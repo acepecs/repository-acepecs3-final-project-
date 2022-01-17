@@ -23,21 +23,22 @@ main section.bienvenidos {
   font-weight: 500;
   display: grid;
   grid-template-areas: "texto kavo" "texto kavo";
-  grid-template-columns: 1fr 1fr; }
-  main section.bienvenidos h1 {
-    font-style: italic;
-    font-weight: 700;
-    text-align: center; }
-    main section.bienvenidos h1 .kavo {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40vh 40vh; }
+  main section.bienvenidos .texto {
+    grid-area: texto;
+    margin: 1em;
+    padding-top: 4em;
+    text-align: left; }
+    main section.bienvenidos .texto .kavo {
       grid-area: kavo;
-      width: 100%;
+      width: 50%;
       height: auto;
-      margin: 1em;
-      padding-top: 1em; }
-      main section.bienvenidos h1 .kavo .texto {
-        grid-area: texto;
-        margin: 2px;
-        padding-top: 2.5em; }
+      padding-top: 20vh; }
+      main section.bienvenidos .texto .kavo h1 {
+        font-style: italic;
+        font-weight: 700;
+        text-align: center; }
 
 section.historia {
   color: #272626;
@@ -45,18 +46,30 @@ section.historia {
   font-weight: 500;
   text-align: center; }
 
-body .divContact {
-  display: grid;
-  grid-template-columns: 1fr;
+body h2 {
   font-style: italic;
-  font-weight: 500;
-  align-items: center; }
-  body .divContact .Ubication {
-    color: #050505;
-    font-style: italic;
+  font-weight: 700;
+  text-align: center; }
+  body h2 .divContact {
+    display: grid;
     font-weight: 500;
     align-items: center;
-    margin: 2em; }
+    font-weight: 500; }
+    body h2 .divContact .Ubication {
+      color: #050505;
+      font-style: italic;
+      font-weight: 500;
+      align-items: center;
+      margin: 2em; }
+
+section.productos {
+  color: #272626;
+  font-style: italic;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: "auto auto"; }
+  section.productos .col {
+    width: 50%; }
 
 * {
   margin: 0;
@@ -66,14 +79,15 @@ body .divContact {
 header {
   background-color: #63666b;
   margin-top: 0em;
-  padding-top: 2.5em;
+  padding-top: 3.5em;
   text-align: center;
-  height: 40vh;
+  height: 30vh;
   position: sticky;
   top: 0em; }
   header .logo {
     min-height: 16vh;
-    max-height: 50vh; }
+    max-height: 50vh;
+    padding-bottom: 2em; }
     header .logo section.menu {
       font-weight: 500;
       padding: 2em;
@@ -83,7 +97,6 @@ header {
       color: #fffdfd;
       list-style-type: none; }
       header .logo section.menu nav ul li {
-        display: inline-block;
         text-align: center; }
         header .logo section.menu nav ul li a {
           font-weight: 500;
@@ -92,9 +105,6 @@ header {
           font-style: italic;
           color: #fffdfd;
           list-style-type: none; }
-          header .logo section.menu nav ul li a .navbar.navbar-expand-lg.navbar-light.bg-light {
-            text-align: center;
-            display: inline-block; }
 
 .whatsApp {
   width: 10vh;

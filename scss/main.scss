@@ -9,25 +9,25 @@ main{
     "texto kavo"
     "texto kavo";
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh ;
 
-        h1{
-        font-style: italic;
-        font-weight: 700;
-        text-align: center;
+    .texto{
+        grid-area: texto;
+        margin: 1em;
+        padding-top: 4em;
+        text-align: left;
 
             .kavo{
             grid-area: kavo;
-            width: 100%;
+            width: 50%;
             height: auto;
-            margin: 1em;
-            padding-top: 1em;
-
-              .texto{
-              grid-area: texto;
-              margin: 2px;
-              padding-top: 2.5em;
+            padding-top: 20vh;              
                 
-               
+              h1{
+                font-style: italic;
+                font-weight: 700;
+                text-align: center;
+        
                }
 
             }
@@ -46,14 +46,16 @@ section.historia{
 
 body{ 
 
-    .divContact{
-        display: grid;
-        grid-template-areas: 
-         "texto"
+    h2{
         font-style: italic;
+        font-weight: 700;
+        text-align: center;
+
+        .divContact{
+        display: grid;    
         font-weight: 500; 
         align-items: center;
-        margin: 2em;
+        font-weight: 500;
     
            .Ubication{
            color: rgb(5, 5, 5);
@@ -62,5 +64,22 @@ body{
            align-items: center; 
            margin: 2em; 
            }
-    }
+    }   }
 }
+
+section.productos{
+
+        color: rgb(39, 38, 38);
+        font-style: italic;
+        font-weight: 500;
+        display: grid;
+        grid-template-columns: "auto auto";
+
+    
+    .col{
+ 
+        width:50%
+    }
+    
+    }
+    
