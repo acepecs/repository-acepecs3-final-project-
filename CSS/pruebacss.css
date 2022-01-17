@@ -1,0 +1,111 @@
+footer {
+  font-style: italic;
+  font-weight: 500;
+  height: 20vh;
+  min-height: 20vh;
+  max-height: 250vh;
+  padding-top: 2.5em;
+  bottom: 10em;
+  color: #fffdfd; }
+  footer section.redes {
+    height: 20vh;
+    padding: 2em;
+    background-color: #63666b;
+    font-size: large;
+    text-align: center;
+    color: #fffdfd; }
+    footer section.redes a:hover {
+      color: #272626; }
+
+main section.bienvenidos {
+  color: #050505;
+  font-style: italic;
+  font-weight: 500;
+  display: grid;
+  grid-template-areas: "texto kavo" "texto kavo";
+  grid-template-columns: 1fr 1fr; }
+  main section.bienvenidos h1 {
+    font-style: italic;
+    font-weight: 700;
+    text-align: center; }
+    main section.bienvenidos h1 .kavo {
+      grid-area: kavo;
+      width: 100%;
+      height: auto;
+      margin: 1em;
+      padding-top: 1em; }
+      main section.bienvenidos h1 .kavo .texto {
+        grid-area: texto;
+        margin: 2px;
+        padding-top: 2.5em; }
+
+section.historia {
+  color: #272626;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center; }
+
+body .divContact {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-style: italic;
+  font-weight: 500;
+  align-items: center; }
+  body .divContact .Ubication {
+    color: #050505;
+    font-style: italic;
+    font-weight: 500;
+    align-items: center;
+    margin: 2em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+header {
+  background-color: #63666b;
+  margin-top: 0em;
+  padding-top: 2.5em;
+  text-align: center;
+  height: 40vh;
+  position: sticky;
+  top: 0em; }
+  header .logo {
+    min-height: 16vh;
+    max-height: 50vh; }
+    header .logo section.menu {
+      font-weight: 500;
+      padding: 2em;
+      text-align: center;
+      font-size: large;
+      font-style: italic;
+      color: #fffdfd;
+      list-style-type: none; }
+      header .logo section.menu nav ul li {
+        display: inline-block;
+        text-align: center; }
+        header .logo section.menu nav ul li a {
+          font-weight: 500;
+          text-align: right;
+          font-size: large;
+          font-style: italic;
+          color: #fffdfd;
+          list-style-type: none; }
+          header .logo section.menu nav ul li a .navbar.navbar-expand-lg.navbar-light.bg-light {
+            text-align: center;
+            display: inline-block; }
+
+.whatsApp {
+  width: 10vh;
+  height: 10vh;
+  position: fixed;
+  bottom: 10vh;
+  right: 3%; }
+
+@media (max-width: 883px) {
+  section.bienvenidos {
+    color: #050505;
+    font-style: italic;
+    font-weight: 500;
+    display: block; } }
