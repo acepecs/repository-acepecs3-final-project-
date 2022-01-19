@@ -6,10 +6,10 @@ main{
     font-weight: 500;
     display: grid;
     grid-template-areas: 
-    "texto kavo"
-    "texto kavo";
+    "equipo texto"
+    "equipo texto";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40vh 40vh ;
+    grid-template-rows: 30vh 30vh ;
 
     .texto{
         grid-area: texto;
@@ -18,10 +18,12 @@ main{
         text-align: left;
 
             .kavo{
-            grid-area: kavo;
-            width: 50%;
-            height: auto;
-            padding-top: 20vh;              
+                grid-area: kavo;
+                width: 100%;
+                height: auto;
+                margin: 5em;
+                padding-top: 10vh;
+            
                 
               h1{
                 font-style: italic;
@@ -30,7 +32,8 @@ main{
         
                }
 
-            }
+            } 
+        
         
         }
 

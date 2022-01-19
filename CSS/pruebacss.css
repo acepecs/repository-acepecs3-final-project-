@@ -5,14 +5,14 @@ footer {
   min-height: 20vh;
   max-height: 250vh;
   padding-top: 2.5em;
-  bottom: 10em;
-  color: #fffdfd; }
+  bottom: 10em; }
   footer section.redes {
     height: 20vh;
     padding: 2em;
     background-color: #63666b;
     font-size: large;
     text-align: center;
+    text-decoration: none;
     color: #fffdfd; }
     footer section.redes a:hover {
       color: #272626; }
@@ -22,9 +22,9 @@ main section.bienvenidos {
   font-style: italic;
   font-weight: 500;
   display: grid;
-  grid-template-areas: "texto kavo" "texto kavo";
+  grid-template-areas: "equipo texto" "equipo texto";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 40vh 40vh; }
+  grid-template-rows: 30vh 30vh; }
   main section.bienvenidos .texto {
     grid-area: texto;
     margin: 1em;
@@ -32,9 +32,10 @@ main section.bienvenidos {
     text-align: left; }
     main section.bienvenidos .texto .kavo {
       grid-area: kavo;
-      width: 50%;
+      width: 100%;
       height: auto;
-      padding-top: 20vh; }
+      margin: 5em;
+      padding-top: 10vh; }
       main section.bienvenidos .texto .kavo h1 {
         font-style: italic;
         font-weight: 700;
@@ -94,7 +95,6 @@ header {
       text-align: center;
       font-size: large;
       font-style: italic;
-      color: #fffdfd;
       list-style-type: none; }
       header .logo section.menu nav ul li {
         text-align: center; }
@@ -110,7 +110,7 @@ header {
   width: 10vh;
   height: 10vh;
   position: fixed;
-  bottom: 10vh;
+  bottom: 5vh;
   right: 3%; }
 
 @media (max-width: 883px) {
