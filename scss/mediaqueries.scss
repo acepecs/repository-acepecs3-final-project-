@@ -6,54 +6,44 @@
         display: block;
 
     }}
+    
     @media screen and (max-width: 768px) {
-        .container-grid { 
-            padding: 0%; 
-            gap: 0px; 
-            grid-template-areas: 
-            "primera segunda" 
-            "primera tercera" 
-            "septima septima" 
-            "septima septima" 
-            "cuarta quinta" 
-            "cuarta quinta" 
-            "cuarta sexta" 
-            "cuarta sexta"; }
-        .primera, 
-        .segunda, 
-        .tercera, 
-        .cuarta, 
-        .quinta, 
-        .sexta, 
-        .septima { 
-            margin: 0%; 
-            padding: 0.5%; 
-            border: 0.1rem solid black; }
-
-        .container-clientes { 
-            grid-template-columns: 
-            1fr 1fr; 
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-            grid-template-areas: 
-            "primera segunda" 
-            "tercera cuarta" 
-            "quinta sexta" 
-            "septima octava" 
-            "novena decima" 
-            "depri deseg"; }
-        .container-clientes .primera,
-         .container-clientes .segunda,
+        .container-grid {
+          padding: 0%;
+          gap: 0;
+          grid-template-areas: "primera segunda" "primera tercera" "septima septima" "septima septima" "cuarta quinta" "cuarta quinta" "cuarta sexta" "cuarta sexta"; }
+        .primera,
+        .segunda,
+        .tercera,
+        .cuarta,
+        .quinta,
+        .sexta,
+        .septima {
+          margin: 0%;
+          padding: .5%;
+          border: solid .1rem black; }
+        .container-clientes {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta" "septima octava" "novena decima" "depri deseg"; }
+          .container-clientes .primera,
+          .container-clientes .segunda,
           .container-clientes .tercera,
-           .container-clientes .cuarta, 
-           .container-clientes .quinta,
-            .container-clientes .sexta, 
-            .container-clientes .septima,
-             .container-clientes .octava, 
-             .container-clientes .novena, 
-             .container-clientes .decima, 
-             .container-clientes .depri, 
-             .container-clientes .deseg { 
-                 border: 0.1rem solid rgb(35, 35, 33); 
-                 margin: 0.1rem; }
-             }
-            
+          .container-clientes .cuarta,
+          .container-clientes .quinta,
+          .container-clientes .sexta,
+          .container-clientes .septima,
+          .container-clientes .octava,
+          .container-clientes .novena,
+          .container-clientes .decima,
+          .container-clientes .depri,
+          .container-clientes .deseg {
+            border: solid 0.1rem #232321;
+            margin: .1rem; }
+        .imagen-Contacto {
+          width: 300px;
+          height: 295px; }
+        .contacto-consulta {
+          margin: .5rem;
+          padding: 1.5rem; } }
+      
