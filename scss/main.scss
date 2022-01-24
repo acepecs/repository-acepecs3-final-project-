@@ -1,30 +1,32 @@
 main{
 
+    .texto{
+        grid-area: texto;
+        margin: 1em;
+        max-width: 50%;
+        padding-top: 4em;
+        text-align: left;}
+
+        .kavo{
+            grid-area: kavo;
+            max-width: 50%;
+            height: auto;
+            margin-top: 60px;}
+            
     section.bienvenidos{
     color: rgb(5, 5, 5);
     font-style: italic;
     font-weight: 500;
     display: grid;
     grid-template-areas: 
-    "equipo texto"
+    "equipo texto" 
     "equipo texto";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30vh 30vh ;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vh 30vh ;*/
 
-    .texto{
-        grid-area: texto;
-        margin: 1em;
-        padding-top: 4em;
-        text-align: left;
-
-            .kavo{
-                grid-area: kavo;
-                width: 100%;
-                height: auto;
-                margin: 5em;
-                padding-top: 10vh;
-            
-                
+    
+    
+          
               h1{
                 font-style: italic;
                 font-weight: 700;
@@ -32,14 +34,11 @@ main{
         
                }
 
-            } 
+            
         
-        
-        }
-
     }
-}
 
+}
 section.historia{
     color: rgb(39, 38, 38);
     font-style: italic;
@@ -53,36 +52,77 @@ body{
         font-style: italic;
         font-weight: 700;
         text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
 
         .divContact{
-        display: grid;    
+        display: inline-block;    
         font-weight: 500; 
-        align-items: center;
+        align-content: center;
         font-weight: 500;
-    
+        margin-bottom: 5%;
+
+
            .Ubication{
            color: rgb(5, 5, 5);
            font-style: italic;
            font-weight: 500; 
            align-items: center; 
-           margin: 2em; 
+           margin: 2em;
+           
            }
-    }   }
+        }
+    }
 }
 
-section.productos{
+.container-grid {
 
-        color: rgb(39, 38, 38);
-        font-style: italic;
-        font-weight: 500;
-        display: grid;
-        grid-template-columns: "auto auto";
+    border: solid #FECB22 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  margin: 1rem;
+  grid-auto-flow: row;
+  grid-template-areas: 
+  "primera primera"
+  "segunda segunda"
+  "tercera tercera"
+  "cuarta cuarta";
 
+    .primera {
+        grid-area: primera;
+     .segunda {
+        grid-area: segunda; 
+     .tercera {
+        grid-area: tercera; 
+     .cuarta {
+        grid-area: cuarta;}}}
+  
+    .primera,
+    .segunda,
+    .tercera,
+    .cuarta {
+      border: solid 0.35rem #48484f;
+      border-radius: 8px;
+      padding: .1rem;
+      margin: .1rem;
+      position: relative;
+      background-color: #e7e7df;}
+   
     
-    .col{
- 
-        width:50%
+    
+    :hover img {
+      filter: brightness(100%);
+
+    div img {
+      border-radius: 8px;
+      transition: .2s; 
+
+     img:hover {
+        filter: none; }
+       
     }
-    
     }
-    
+} 
+} 
